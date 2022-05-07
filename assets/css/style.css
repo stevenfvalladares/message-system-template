@@ -34,7 +34,9 @@ body {
     padding: 0;
 }
 
-
+ul {
+    list-style-type: none;
+}
 
 /*========================================*/
 /*---------------- [_Class] -----===------*/
@@ -46,7 +48,44 @@ body {
 .contacts-section {
     min-height: 100vh;
     width: 20%;
-    border-right: 2px solid var(--gray)
+    border-right: 2px solid var(--gray);
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    height: 5%;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+.navbar .navbar-left {
+    display: inline-flex;
+}
+.navbar .navbar-left .photo img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 5px;
+}
+.navbar .navbar-left .user-details {
+    margin: 5px;
+}
+.navbar .navbar-left .user-details .user-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--medium);
+    color: var(--dark-jungle);
+    text-align: center;
+    display: block;
+}
+.navbar .navbar-left .user-details .user-status {
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--small);
+}
+.navbar .navbar-right i {
+    margin: 2.5px;
+    font-size: var(--medium);
 }
 
 .main-section {
@@ -79,4 +118,5 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-top: 5px;
+    font-size: var(--medium);
 }
