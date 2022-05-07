@@ -1,0 +1,30 @@
+/*========================================*/
+/*----------- [_Google_Fonts] ------------*/
+/*========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*========================================*/
+/*---------[-Colors & font-size]----------*/
+/*========================================*/
+:root {
+    --x-small: 10px;
+    --small: 14px;
+    --medium: 16px;
+    --large: 45px;
+    --white: #fff;
+    --platinum: #e8ebe4;
+    --gray: #bec1bb;
+    --blue-bell: #a491d2;
+    --soap: #cdc3e6;
+    --pale-lavender: #d4dcff;
+    --dark-jungle: #1b1f21;
+    --outer-space: #444749;
+    --old-silver: #828485;
+}
+
+
+
