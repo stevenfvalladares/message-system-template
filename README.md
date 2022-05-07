@@ -1,4 +1,6 @@
-# <img src="./assets/imgs/logo.png" width="150" height="150">
+<p align="center">
+    <img src="./assets/imgs/logo.png" width="150" height="150" alt="logo" />
+</p>
 
 Desafío sistema de mensajería (layout), construir un layout para el Front-End de un sistema de mensajería para la empresa Contact Me SPA | DesafíoLatam.
 
